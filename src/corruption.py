@@ -175,5 +175,3 @@ if __name__ == "__main__":
         output_dir="../data/corrupted",
         csv_file="../data/processed/usable_subset.csv",
     )
-
-    print("Day 2 corruption generation complete! ✓")
