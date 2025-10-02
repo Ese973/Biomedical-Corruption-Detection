@@ -22,6 +22,16 @@ This project addresses a challenging in medical imaging: detecting corrupted or 
 | Recall (weighted) | 93.8% |
 | F1-Score (weighted) | 93.8% |
 
+### Pre-Class Performance
+
+| Corruption Type | Precision | Recall | F1-Score | Number of Samples
+|--------|-------|--------|-------|--------|
+| Clean | 100% | 100% | 100% | 40 |
+| Gaussian Noise | 82.1% | 95.8% | 88.5% | 120 |
+| Motion Blur | 98.4% | 100% | 99.2% | 120 |
+| Compression | 100% | 100% | 100% | 120 |
+| Mixed | 94.9% | 77.5% | 85.3% | 120 |
+
 ## Data
 
 Data can be downloaded from NIH Chest X-Ray dataset (https://www.kaggle.com/datasets/nih-chest-xrays/data). The usable subset of data and images used in this project were extracted from Data_Entry_2017.csv (compact) and images_001. Reproducibility with other image sets is currently being tested.
