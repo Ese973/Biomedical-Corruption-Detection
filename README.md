@@ -122,3 +122,6 @@ Confusion Matrix:
 Sample Predictions:
 
 <div style="text-align:center"><img src="results/demo_grid.png" /></div>
+
+# Notes
+Please note that this is prototype model that was primarily developed as a project for furthering my understanding of CV and ML. Future work is focused on reproducibility across different formats and improving the model's comprehension. 
