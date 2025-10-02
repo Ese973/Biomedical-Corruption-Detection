@@ -93,3 +93,15 @@ print(f"Confidence: {result['confidence']:.1f}%")
 # Visualize prediction
 detector.visualize_prediction('path/to/image.png', save_path='results/prediction.png')
 ```
+
+### Batch Processing
+
+```
+# Process multiple images
+results = detector.batch_predict('path/to/image_folder/', max_images=50)
+
+# Create demo visualization grid
+detector.create_demo_grid('data/corrupted/corrupted_dataset.csv', save_path='results/demo_grid.png')
+```
+
+## Results Visualizations 
