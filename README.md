@@ -113,9 +113,11 @@ Training Curves:
 
 <div style="text-align:center"><img src="results/training_curves.png" /></div>
 
+
 Confusion Matrix:
 
 <div style="text-align:center"><img src="results/confusion_matrix.png" /></div>
+
 
 Sample Predictions:
 
