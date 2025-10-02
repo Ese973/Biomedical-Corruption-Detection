@@ -1,7 +1,26 @@
 # Biomedical Image Corruption Detection System
 
-A deep learning system for detecting and classifying image corruption in medial imaging datasets
+A deep learning system for detecting and classifying image corruption in medial imaging datasets.
 
 ## Overview
 
 This project addresses a challenging in medical imaging: detecting corrupted or degraded images before they lead to misdiagnosis. Using computer vision and deep learning, this system automatically identifies five types of image corruptions with 93.8% accuracy. 
+
+## Features
+- Multi-class corruption detection
+- Real-time inference capability
+- Trained on chest X-ray images
+- Potential for production-ready PyTorch implementation
+- Comprehensive evaluation metrics
+
+## Data
+
+Data can be downloaded from NIH Chest X-Ray dataset (https://www.kaggle.com/datasets/nih-chest-xrays/data). The usable subset of data and images used in this project were extracted from Data_Entry_2017.csv (compact) and images_001. Reproducibility with other image sets is currently being tested.
+
+## Requirements 
+
+To install the requirements use the requirements.txt file within a created environment. 
+
+## Example Usage
+
+All command need to be executed from the 'src' folder. Otherwise, the full path needs to be included in the command. 
