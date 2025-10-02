@@ -65,12 +65,13 @@ CUDA (optional, for GPU acceleration)
 ```
 ## Example Usage
 
-All command need to be executed from the `src` folder. Otherwise, the full path needs to be included in the command. 
+All commands need to be executed from the `src` folder. Otherwise, the full path needs to be included in the command. 
 
 ```
 # Clone repository
 git clone <https://github.com/Ese973/Biomedical-Corruption-Detection>
-cd biomedical_corruption_detection
+cd Biomedical-Corruption-Detection
+
 
 # Install dependencies
 pip install torch torchvision opencv-python pandas matplotlib seaborn scikit-learn pillow tqdm
