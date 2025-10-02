@@ -16,7 +16,7 @@ This project addresses a challenging in medical imaging: detecting corrupted or 
 ## Performance Metrics
 
 | Metric | Score |
-------------------
+|--------|-------|
 | Overall Accuracy | 93.8% |
 | Precision (weighted) | 94.3% |
 | Recall (weighted) | 93.8% |
