@@ -52,6 +52,9 @@ Batch Size: 32
 
 Data can be downloaded from NIH Chest X-Ray dataset (https://www.kaggle.com/datasets/nih-chest-xrays/data). The usable subset of data and images used in this project were extracted from Data_Entry_2017.csv (compact) and images_001. Reproducibility with other image sets is currently being tested.
 
+Example image:
+<div style="text-align:center"><img src="results/sample_image.png" /></div>
+
 # Getting Started
 
 ## Prerequisites and Requirements
