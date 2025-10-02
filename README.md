@@ -65,7 +65,7 @@ CUDA (optional, for GPU acceleration)
 ```
 ## Example Usage
 
-All commands need to be executed from the `src` folder. Otherwise, the full path needs to be included in the command. 
+All commands need to be executed from the main folder. Otherwise, the full path needs to be included in the command. 
 
 ```
 # Clone repository
@@ -75,4 +75,21 @@ cd Biomedical-Corruption-Detection
 
 # Install dependencies
 pip install torch torchvision opencv-python pandas matplotlib seaborn scikit-learn pillow tqdm
+```
+
+### Inference on New Images
+
+```
+from src.inference import CorruptionDetector
+
+# Load model
+detector = CorruptionDetector('models_saved/best_model.pth')
+
+# Predict single image
+result = detector.predict_image('path/to/image.png')
+print(f"Prediction: {result['predicted_class']}")
+print(f"Confidence: {result['confidence']:.1f}%")
+
+# Visualize prediction
+detector.visualize_prediction('path/to/image.png', save_path='results/prediction.png')
 ```
