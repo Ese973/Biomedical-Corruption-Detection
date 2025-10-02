@@ -105,3 +105,7 @@ detector.create_demo_grid('data/corrupted/corrupted_dataset.csv', save_path='res
 ```
 
 ## Results Visualizations 
+
+Training Curves
+
+<div style="text-align:center"><img src="results/training_curves.png"  /></div>
