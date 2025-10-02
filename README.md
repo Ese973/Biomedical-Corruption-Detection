@@ -69,7 +69,7 @@ All command need to be executed from the `src` folder. Otherwise, the full path 
 
 ```
 # Clone repository
-git clone <your-repo-url>
+git clone <https://github.com/Ese973/Biomedical-Corruption-Detection>
 cd biomedical_corruption_detection
 
 # Install dependencies
