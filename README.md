@@ -32,6 +32,22 @@ This project addresses a challenging in medical imaging: detecting corrupted or 
 | Compression | 100% | 100% | 100% | 120 |
 | Mixed | 94.9% | 77.5% | 85.3% | 120 |
 
+## Model Architecture
+- Base: ResNet-18 (pretrained on ImageNet)
+- Modification: Custom classification head for 5 classes
+- Input 224x224 RGB images (converted from grayscale)
+- Output: Softmax probability distribution over corruption types
+
+## Training Configuration 
+
+```
+Optimizer: Adam (lr=1e-3, weight_decay=1e-4)
+Loss Function: CrossEntropyLoss
+Scheduler: StepLR (step_size=10, gamma=0.1)
+Epochs: 15
+Batch Size: 32
+```
+
 ## Data
 
 Data can be downloaded from NIH Chest X-Ray dataset (https://www.kaggle.com/datasets/nih-chest-xrays/data). The usable subset of data and images used in this project were extracted from Data_Entry_2017.csv (compact) and images_001. Reproducibility with other image sets is currently being tested.
