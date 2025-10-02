@@ -106,6 +106,14 @@ detector.create_demo_grid('data/corrupted/corrupted_dataset.csv', save_path='res
 
 ## Results Visualizations 
 
-Training Curves
+Training Curves:
 
-<div style="text-align:center"><img src="results/training_curves.png"  /></div>
+<div style="text-align:center"><img src="results/training_curves.png" /></div>
+
+Confusion Matrix:
+
+<div style="text-align:center"><img src="results/confusion_matrix.png" /></div>
+
+Sample Predictions:
+
+<div style="text-align:center"><img src="results/demo_grid.png" /></div>
