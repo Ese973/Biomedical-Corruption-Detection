@@ -13,6 +13,15 @@ This project addresses a challenging in medical imaging: detecting corrupted or 
 - Potential for production-ready PyTorch implementation
 - Comprehensive evaluation metrics
 
+## Performance Metrics
+
+| Metric | Score |
+------------------
+| Overall Accuracy | 93.8% |
+| Precision (weighted) | 94.3% |
+| Recall (weighted) | 93.8% |
+| F1-Score (weighted) | 93.8% |
+
 ## Data
 
 Data can be downloaded from NIH Chest X-Ray dataset (https://www.kaggle.com/datasets/nih-chest-xrays/data). The usable subset of data and images used in this project were extracted from Data_Entry_2017.csv (compact) and images_001. Reproducibility with other image sets is currently being tested.
